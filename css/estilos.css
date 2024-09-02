@@ -1,124 +1,243 @@
-﻿body {
-    /* Reset de márgenes y rellenos */
-    *
+﻿/* estilos.css */
 
-{
+/* Resetear márgenes y rellenos por defecto */
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-/* Estilo general del cuerpo */
+/* Estilo para el body */
 body {
-    font-family: 'Arial', sans-serif;
-    background-color: #1e1e1e; /* Fondo oscuro */
-    color: #e0e0e0; /* Texto claro */
+    font-family: Arial, sans-serif;
     line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
 }
 
-/* Contenedor principal */
-.container {
+/* Estilo para el contenedor principal */
+#container {
     width: 80%;
-    margin: auto;
-    overflow: hidden;
+    margin: 0 auto;
 }
 
-/* Cabecera */
+/* Estilo para el header */
 header {
     background: #333;
     color: #fff;
-    padding: 20px 0;
+    padding: 1rem 0;
     text-align: center;
 }
 
     header h1 {
-        margin: 0;
-        font-size: 2.5em;
+        margin-bottom: 0.5rem;
+        font-size: 2rem;
     }
 
-/* Navegación */
-.nav {
-    background-color: #333;
-    padding: 10px 0;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+/* Estilo para el menú de navegación */
+nav ul {
+    list-style: none;
+    padding: 0;
 }
 
-    .nav ul {
-        list-style: none;
-        padding: 0;
-        margin: 0;
-        display: flex;
-        justify-content: center;
+    nav ul li {
+        display: inline;
+        margin: 0 15px;
     }
 
-        .nav ul li {
-            margin: 0 20px;
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+            font-size: 1.1rem;
         }
 
-            .nav ul li a {
-                color: #fff;
-                text-decoration: none;
-                font-weight: bold;
-                padding: 5px 10px;
-                transition: color 0.3s ease, background-color 0.3s ease;
-                border-radius: 5px;
+            nav ul li a:hover {
+                text-decoration: underline;
             }
 
-                .nav ul li a:hover {
-                    color: #333;
-                    background-color: #fff;
-                    text-decoration: none;
-                    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
-                    padding: 7px 12px;
-                    border-radius: 5px;
-                }
-
-/* Sección principal */
+/* Estilo para el main */
 main {
-    padding: 20px;
+    padding: 2rem 0;
 }
 
-h2 {
-    color: #ff5722; /* Color de títulos secundarios */
-    margin-bottom: 10px;
-}
-
-/* Tarjetas de juego */
-.card {
-    background: #2b2b2b;
-    border: 1px solid #444;
+/* Agregar un poco de espacio al contenido principal */
+main {
+    background: #fff;
     border-radius: 8px;
-    padding: 20px;
-    margin-bottom: 20px;
-    transition: transform 0.3s ease;
+    padding: 1.5rem;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-    .card img {
-        max-width: 100%;
-        border-radius: 8px;
-    }
+/* Añadir espacio en la parte inferior del contenedor */
+#container {
+    margin-bottom: 2rem;
+}
 
-    .card:hover {
-        transform: scale(1.05); /* Efecto de hover en las tarjetas */
-    }
+/*css resena*/
+/* estilos.css */
 
-/* Pie de página */
-footer {
+/* Resetear márgenes y rellenos por defecto */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilo general para el body */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Estilo para el header */
+header {
     background: #333;
     color: #fff;
+    padding: 1rem;
     text-align: center;
-    padding: 10px 0;
 }
 
-    footer p {
-        margin: 0;
-    }
-
-/* Diseño responsivo */
-@media (max-width: 768px) {
-    header h1 {
-        font-size: 2em;
-    }
-
-    nav ul li
+/* Estilo para la navegación */
+.nav ul {
+    list-style: none;
+    padding: 0;
 }
+
+    .nav ul li {
+        display: inline;
+        margin: 0 15px;
+    }
+
+        .nav ul li a {
+            color: #fff;
+            text-decoration: none;
+            font-size: 1.1rem;
+        }
+
+            .nav ul li a:hover {
+                text-decoration: underline;
+            }
+
+/* Estilo para el main */
+main {
+    width: 80%;
+    margin: 2rem auto;
+    background: #fff;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+    /* Estilo para párrafos dentro de main */
+    main p {
+        margin-bottom: 1rem;
+    }
+
+/* Estilo para textos en negrita y cursiva */
+b {
+    color: #333;
+}
+
+i {
+    color: #666;
+    font-style: italic;
+}
+
+/* Estilo para el enlace de regreso */
+a {
+    color: #333;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+    a:hover {
+        text-decoration: underline;
+    }
+
+/*estilo css para acerca de*/
+
+/* estilos.css */
+
+/* Resetear márgenes y rellenos por defecto */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilo general para el body */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Estilo para el header */
+header {
+    background: #333;
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+/* Estilo para la navegación */
+.nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+    .nav ul li {
+        display: inline;
+        margin: 0 15px;
+    }
+
+        .nav ul li a {
+            color: #fff;
+            text-decoration: none;
+            font-size: 1rem;
+        }
+
+            .nav ul li a:hover {
+                text-decoration: underline;
+            }
+
+/* Estilo para el main */
+main {
+    width: 80%;
+    margin: 2rem auto;
+    background: #fff;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+    /* Estilo para el h1 */
+    main h1 {
+        margin-bottom: 1rem;
+        font-size: 1.8rem;
+        color: #333;
+    }
+
+    /* Estilo para los párrafos */
+    main p {
+        margin-bottom: 1rem;
+    }
+
+/* Estilo para textos en cursiva */
+i {
+    font-style: italic;
+    color: #666;
+}
+
+/* Estilo para enlaces */
+a {
+    color: #0066cc;
+    text-decoration: none;
+}
+
+    a:hover {
+        text-decoration: underline;
+    }
