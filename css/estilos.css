@@ -241,3 +241,78 @@ a {
     a:hover {
         text-decoration: underline;
     }
+/*css de index*/
+/* estilos.css */
+
+/* Resetear márgenes y rellenos por defecto */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilo general para el body */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Estilo para el contenedor principal */
+#container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+/* Estilo para el header */
+header {
+    background: #333;
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+}
+
+    /* Estilo para el h1 dentro del header */
+    header h1 {
+        font-size: 1.8rem;
+        margin-bottom: 1rem;
+    }
+
+/* Estilo para la navegación */
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+    nav ul li {
+        display: inline;
+        margin: 0 15px;
+    }
+
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+            font-size: 1.1rem;
+        }
+
+            nav ul li a:hover {
+                text-decoration: underline;
+            }
+
+/* Estilo para el main */
+main {
+    padding: 2rem;
+    background: #fff;
+    margin-top: 1rem;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+    /* Estilo para el contenido dentro de main */
+    main p {
+        margin-bottom: 1rem;
+    }
+/*banner*/
+
